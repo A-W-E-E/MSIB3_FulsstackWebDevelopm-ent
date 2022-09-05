@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Latihan Form</title></head>
+    <body>
+        <form action="#" name="FormLatihan" method="get" >
+            <table border="0" align="center" cellpadding="15" width="50%">
+                <thead>
+                    <tr bgcolor="gray">
+                        <th colspan="2">Kritik dan Saran</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="25%"><label>Nama</label></td>
+                        <td>
+                            <input type="text" name="nama" value="" placeholder="Nama Lengkap"
+                            size="50" maxlength="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label >Email</label></td>
+                        <td>
+                            <input type="text" name="email" value="" placeholder="Alamat Email"
+                            size="50" maxlength="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label >Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="L" checked> Laki-Laki&nbsp;&nbsp;
+                            <input type="radio" name="gender" value="P"> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><label >Perihal</label></td>
+                        <td>
+                            <input type="checkbox" name="makanan" value="Makanan">Makanan <br>
+                            <input type="checkbox" name="minuman" value="Minuman">Minuman <br>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td><label>Kritik dan Saran</label></td>
+                        <td>
+                            <select name="pendidikan">
+                                <option value="">-- Pilihan --</option>
+                                <option value="Kritik">Kritik</option>
+                                <option value="Saran">Saran</option>
+                                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Komentar</td>
+                        <td>
+                            <textarea name="komentar" cols="50" rows="5" placeholder="Masukan Komentar"></textarea>
+                        </td>
+                    </tr>
+                    <tfoot>
+                        <th colspan="2" bgcolor="gray">
+                            <input type="submit" value="kirim" name="Kirim">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="submit" value="batal" name="Cancel">
+                        </th>
+                    </tfoot>
+                </tbody>
+            </table>
+        </form>
+        
+    </body>
+</html>

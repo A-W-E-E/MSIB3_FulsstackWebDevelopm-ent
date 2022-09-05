@@ -1,0 +1,116 @@
+p{
+    color: rgb(44, 0, 73);
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+}
+body {
+    background-image: url('../IMAGE/logo_nf-computer-ok.png');
+    background-color: rgb(194, 255, 255);
+    background-image: url('../IMAGE/Logo\ Universitas\ AMIKOM\ Purwokerto.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    margin: 0cm 3.5cm; /*top bottom = 0, left right = 3*/
+}
+
+hr{
+    border-width: 1px;
+    border-color: rgb(192, 0, 0);
+    border-style: solid;
+}
+#atas , #bawah {
+    text-align: right;
+    color: crimson
+}
+
+/* grouping */
+fieldset, legend {
+    border-radius: 30px;
+    border: red inset 5px;
+}
+
+legend{
+    padding: 10px;
+    background-color: aliceblue;
+    color: brown;
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table{
+    
+    border: 10px solid maroon;
+    
+}
+
+td{
+    border: 1px solid yellowgreen;
+    padding: 5px;
+}
+
+ol{
+    list-style-image: url('../IMAGE/musik.gif');
+}
+ul{
+    list-style-image: url('../IMAGE/nyanyi.gif');
+}
+ul.hobby{
+    list-style-image: url('../IMAGE/jempol.gif');
+}
+ul.menu{
+    list-style-image: url('../IMAGE/jempol.gif');
+}
+
+/* ----- Pseudo class serta id& class----- */
+
+/*  */
+div#menu{
+    padding: 10px 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a.nav:link, a.nav:visited ,a.nav:link{
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    border: 2px solid maroon;
+    padding: 5px;
+    background: aqua;
+
+}
+
+
+/* berubah saat di hampiri cursor */
+a.nav:hover{
+    text-decoration: none;
+    font-size: 14pt;
+    color: red;
+    border: 2px solid goldenrod;
+    padding: 5px;
+    background: aqua;
+
+}
+
+/*-----------------pseudo element----------------------*/
+p.p3:first-letter{
+	color:red;
+	font-size:36pt;
+	font-weight:bold;
+	font-family:algerian,jokerman;
+	float:left;
+	padding-right:10px;
+}
+p.p3:first-line{
+	color:green;
+	font-style: italic;
+}
+
+h1{
+    text-shadow: 3px 3px whitesmoke;
+    color:maroon;
+}

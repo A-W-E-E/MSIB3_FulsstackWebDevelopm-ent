@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  h1{
+    text-align: left;
+    text-shadow: 3px 3px whitesmoke;
+    color:maroon;
+}
+p.p0{
+  text-align: left;
+  text-shadow: 3px 3px whitesmoke;
+  color:maroon;
+}
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    background-image: url('../../IMAGE/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(104, 86, 77);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 3px red;
+    text-align: center;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+
+  p{
+    color: rgb(44, 0, 73);
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+}
+
+
+hr{
+    border-width: 1px;
+    border-color: rgb(192, 0, 0);
+    border-style: solid;
+}
+#atas , #bawah {
+    text-align: right;
+    color: crimson
+}
+
+/* grouping */
+fieldset, legend {
+    border-radius: 30px;
+    border: red inset 5px;
+}
+fieldset.tutor, legend.tutor{
+  border-radius: 30px;
+  border: rgb(4, 0, 255) inset 5px;
+}
+legend{
+    padding: 10px;
+    background-color: aliceblue;
+    color: brown;
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table{
+    
+    border: 10px solid maroon;
+    
+}
+p.p3:first-letter{
+	color:red;
+	font-size:36pt;
+	font-weight:bold;
+	font-family:algerian,jokerman;
+	float:left;
+	padding-right:10px;
+}
+p.p3:first-line{
+	color:green;
+	font-style:italic;
+}
+
+h1{
+    text-shadow: 3px 3px whitesmoke;
+    color:maroon;
+}
+
+td{
+    border: 1px solid yellowgreen;
+    padding: 5px;
+}
+
+ol{
+    list-style-image: url('../../IMAGE/musik.gif');
+}
+ul{
+    list-style-image: url('../../IMAGE/nyanyi.gif');
+}
+ul.hobby{
+    list-style-image: url('../../IMAGE/jempol.gif');
+}
+ul.menu{
+    list-style-image: url('../../IMAGE/jempol.gif');
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #525151;
+    padding: 3px;
+    text-align: center;
+  }
+  p.foot{
+    color: white;
+    text-align: center;
+  }
